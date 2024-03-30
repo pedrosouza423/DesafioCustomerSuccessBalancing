@@ -27,7 +27,6 @@ try {
     } else if (result === 0 || (Array.isArray(result) && result.length > 1)) {
         console.log("O resultado é um empate entre os CSs.");
         
-        // Extra: Mostrar detalhes dos CSs em caso de empate
         if (Array.isArray(result) && result.length > 1) {
             console.log("Os CSs que empataram atendendo mais clientes são:");
             result.forEach(id => {
