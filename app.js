@@ -18,7 +18,7 @@ try {
         new Cliente(5, 70),
         new Cliente(6, 80)
     ];
-    const unavailableCsIds = [];
+    const unavailableCsIds = [2];
 
     const result = customerSuccessBalancing(csList, clientsList, unavailableCsIds);
 
