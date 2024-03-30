@@ -1,4 +1,11 @@
 {
+  "name": "customer-success-balancing",
+  "version": "1.0.0",
+  "description": "Um sistema de balanceamento entre clientes e Customer Success (CSs).",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }
