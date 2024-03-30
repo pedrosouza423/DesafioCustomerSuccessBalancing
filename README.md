@@ -15,6 +15,9 @@ Este projeto implementa um sistema de balanceamento entre clientes e Customer Su
 
 A aplicação distribuirá os clientes entre os CSs disponíveis baseado nos níveis de experiência dos CSs e no tamanho dos clientes. O resultado será exibido no console.
 
+### Personalizando os Testes
+Para realizar testes personalizados da aplicação, modifique as listas `csList`, `clientsList`, e `unavailableCsIds` no arquivo `app.js`. Essas listas representam, respectivamente, os Customer Success disponíveis, os clientes e os IDs dos Customer Success que estão indisponíveis. Após realizar as modificações, execute `node app.js` para ver o resultado da distribuição com base nas suas alterações.
+
 ## Como Testar
 
 ### Executando Testes
@@ -35,4 +38,3 @@ Os testes cobrem vários cenários, incluindo a distribuição adequada dos clie
 
 ## Contribuindo
 Sinta-se à vontade para contribuir com melhorias no código ou nos testes. Para contribuir, faça um fork do projeto, crie uma branch para sua feature ou correção, e abra um Pull Request.
-
